@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Web File Firewall",
+  "version": "1.0",
+  "permissions": ["downloads", "notifications"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
